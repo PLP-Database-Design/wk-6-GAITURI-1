@@ -1,0 +1,23 @@
+Selenium Test Results
+
+messages
+"[2025-11-11T22:40:17.131048+00:00] Navigated to Registration Page, proceed to Register"
+"[2025-11-11T22:40:25.968572+00:00] Registration Successful, proceed to Login"
+"[2025-11-11T22:40:32.638962+00:00] Login Successful, navigated to Profile Page"
+"[2025-11-11T22:40:34.876093+00:00] Logout Successful, navigated to Home Page"
+
+test,timestamp,status,duration,error
+test_selenium_cleancity_User_Registration,2025-11-11T22:40:10.735277+00:00,passed,24.34,
+
+Selenium Test Results
+
+messages
+[2025-11-11T22:40:35.076382+00:00] Starting Test Case AUTH-TC-003: Password Validation
+"[2025-11-11T22:40:43.813912+00:00] Navigated to Registration Page, proceed to Register"
+[2025-11-11T22:40:49.538630+00:00] Attempted Registration with weak password 'a1'
+"[2025-11-11T22:40:49.564627+00:00] Registration Successful with weak password, proceed to Login"
+
+test,timestamp,status,duration,error
+test_weak_password_registration,2025-11-11T22:40:35.076364+00:00,passed,14.64,
+
+
